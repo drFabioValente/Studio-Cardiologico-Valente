@@ -1,6 +1,15 @@
 {
+  "name": "studio-cardiologico-valente",
+  "private": true,
   "scripts": {
-    "build": "mkdir -p public && cp index.html public/index.html"
+    "build": "next build",
+    "start": "next start",
+    "dev": "next dev"
   },
-  "dependencies": {}
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.0",
+    "next": "14.2.3",
+    "react": "^18",
+    "react-dom": "^18"
+  }
 }
